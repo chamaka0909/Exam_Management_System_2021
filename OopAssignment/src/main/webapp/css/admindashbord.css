@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+
+.hedding
+{
+	color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  
+ 
+  
+	 margin:8px;
+	padding:0px;
+	font-family:sans-serif;
+	background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(../images/img3.jpg);
+	background-repeat : no-repeat;
+	background-size: cover;
+	background-position : center center;
+	background-attachment : fixed;
+ 
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 5px solid #00B4CC;
+  border-right: none;
+  padding: 10px;
+  height: 60px;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  color: black;
+  
+  
+}
+
+.searchTerm:focus{
+  color:black;
+  font-size: 20px;
+  
+}
+
+
+.searchButton {
+  width: 200px;
+  height: 60px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 7px 7px 0;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.addnewuserbutton
+ {
+  width: 300px;
+  height: 55px;
+  border: 2px solid white;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius:  5px 5px 5px 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top :180px;
+   margin-bottom: 13px;
+   margin-left:40%;
+    
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

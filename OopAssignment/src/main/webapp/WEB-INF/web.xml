@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+         <servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>com.student.SearchStudentServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/Search</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+         <servlet>
+    	<servlet-name>insertstudent</servlet-name>
+    	<servlet-class>com.student.StudentInsertServlet</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+    	<servlet-name>insertstudent</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+     <servlet>
+    	<servlet-name>updatestudent</servlet-name>
+    	<servlet-class>com.student.UpdateStudentServlet</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+    	<servlet-name>updatestudent</servlet-name>
+    	<url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+    	<servlet-name>deletestudent</servlet-name>
+    	<servlet-class>com.student.DeleteStudent</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+    	<servlet-name>deletestudent</servlet-name>
+    	<url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    
+      
+      
+      </web-app>   
