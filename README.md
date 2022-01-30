@@ -2,9 +2,9 @@
 
 In the covid 19 pandemic situation, all the campuses are conducted online. in this situation, they need to manage their exams. As a solution to this problem, we have introduced this system to manage their exams.
 
-◾ I develop a student management function.
+◾  I develop a student management function.
 
-◾ I mainly use JAVA Language with Html, CSS, and JavaScript.
+◾  I mainly use JAVA Language with Html, CSS, and JavaScript.
 
 
 ![Screenshot (4460)](https://user-images.githubusercontent.com/95535148/147682998-4bc9101f-9faf-4cd7-81a3-62f27d0f1cf6.png)
